@@ -1,0 +1,75 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  background-color: rgb(185, 185, 60);
+}
+
+.logo {
+  width: 100px;
+  height: 110px;
+  margin: 5px;
+  margin-bottom: 0px;
+}
+.nav-items {
+  font-size: 20px;
+}
+.nav-items > ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
+
+.res-card {
+  margin: 5px 15px 5px 15px;
+  padding: 5px;
+  width: 290px;
+  height: 420px;
+  box-shadow: lightgray;
+}
+
+h4 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+.res-card:hover {
+  border: 5px solid rgb(185, 185, 60);
+  cursor: pointer;
+}
+
+.search {
+  padding: 10px;
+}
+
+.res-logo {
+  width: 100%;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.filter-btn {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.dark-shimmer {
+  /* Add your custom styles to make the shimmer effect darker */
+  margin: 35px 5px 5px 5px;
+  padding: 5px;
+}
+
+.filter {
+  display: flex;
+}
